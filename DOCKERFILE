@@ -1,0 +1,5 @@
+FROM node
+MAINTAINER Trond Hindenes
+RUN mkdir /var/www
+ADD server.js /var/www/server.js
+CMD ["node", "/var/www/server.js"] 
