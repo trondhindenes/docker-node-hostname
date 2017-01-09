@@ -1,6 +1,6 @@
 var http = require('http');
 var os = require("os");
-var http_port = process.env.HTTP_PORT || '80';
+var http_port = '80';
 var hostname = os.hostname();
 const PORT=http_port
 
